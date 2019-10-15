@@ -5,13 +5,15 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 5.2.1'
-gem 'puma', '~> 3.7'
-gem 'sass-rails', '~> 5.0'
+ruby '2.6.3'
+
+gem 'rails', '~> 6.0.0'
+gem 'puma', '~> 3.11'
+gem 'sass-rails', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.7'
 gem 'foundation-rails', '5.4.5'
 gem 'devise'
 gem 'simple_form'
@@ -32,7 +34,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.4'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'rails_layout'
