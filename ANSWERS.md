@@ -21,6 +21,8 @@ I passed the trainer_path to the redirect_to with the current trainer_id.
 This line checks if the pokemon has errors. Then it stores any error messages in the flash hash with the key :error
 full_messages.to_sentence then renders them so they can be shown on the form.
 
+https://github.com/raymondbacco/proj1.git
+
 # Give us feedback on the project and decal below!
 
 # Extra credit: Link your Heroku deployed app
